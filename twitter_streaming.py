@@ -11,10 +11,10 @@ from tweepy import OAuthHandler
 from tweepy import Stream
 import time
 
-acces_token ="3233453999-5vkpTli3Zy1zmJw43Wo8v349cv06BbIk4uRy9Kb"
-access_token_secret="QUZ8BwyOq4QDLN22PBXhOdvVcjX4kXdAG37dTs9XMjXCL"
-consumer_key="0ugv6e9bGvlZGhHz083GUUtT3"
-consumer_secret ="8JY9gKyVjfPPejbjCFhybTrl2fG4noKVGmyQFW1GDtV4IcX43e"
+acces_token ="##################################"        #Enter your Acces- token key  
+access_token_secret="#################################"  #Enter your access-token-secret key
+consumer_key="#########################"                #Enter your consumer key
+consumer_secret ="###############################################" #Enter your secret consumer key
 class StdoutListener(StreamListener):
     def on_data(self,data):
             print data
